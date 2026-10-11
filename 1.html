@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <div class="cont">
+        <header>
+            <nav id="nav">
+                <h1>My Portfolio</h1>
+                <a href="#About">About</a>
+                <a href="#Skills">Skills</a>
+                <a href="#Projects">Projects</a>
+                <a href="#Contact">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="About">
+                <h2>About Me</h2>
+                <img src="https://thumbs.dreamstime.com/b/cute-pretty-cheerful-teen-girl-cartoon-character-blonde-haired-wearing-casual-clothes-346915698.jpg" alt="profile pic">
+                <p>Hello I'm Vidhi Dagar. I am learning web development and this is my second Assignment.</p>
+            </section>
+            <hr>
+
+            <section id="Skills">
+                <h2>My Skills</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Skills</th>
+                            <th>Level</th>
+                        </tr>                    
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Beginner</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>Beginner</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Learning</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <hr>
+
+            <section id="Projects">
+                <h2>My Projects</h2>
+                <div class="projects-list">
+                    <h3>Project 1</h3>
+                    <p>A single HTML ans CSS webpage.</p>
+                </div>
+                <div class="projects-list">
+                    <h3>Project 2</h3>
+                    <p>Another amazing mini project.</p>
+                </div>
+            </section>
+            <hr>
+        </main>
+
+        <footer id="Contact">
+            <h2>Contact Me</h2>
+            <form action="">
+
+                <div class="row">
+                    <label for="name">Name:</label>
+                    <input type="text" class="field" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <br><br>
+
+                <div class="row">
+                    <label for="email">Email:</label>
+                    <input type="email" class="field" name="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <br><br>
+
+                <div class="row">
+                    <label for="message">Message:</label>
+                    <textarea class="field" name="message" id="message" placeholder="Write your message" required></textarea>
+                </div>
+                <br><br>
+                
+                <button type="submit">Send</button>
+            </form>
+        </footer>
+        <a id="fixed" href="#top">↑ Back to Top</a>
+    </div>
+</body>
+</html>
+    
